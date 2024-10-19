@@ -49,3 +49,15 @@
     display: block;
     margin: 20px 0;
 }
+
+/* -------------- media query -------------- */
+
+@media (max-width: 800px){
+    .contect{
+        display: block;
+    }
+    .contect-col{
+        padding: 20px;
+    }
+}
+

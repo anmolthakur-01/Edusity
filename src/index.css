@@ -43,3 +43,19 @@ a {
     background: #212ea0;
     color: #fff;
 }
+
+/*------------ media query -------------*/
+
+@media(max-width: 1070px){
+    .container{
+        padding: 0 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}
+@media(max-width: 840px) {
+    .container{
+        padding: 14px 5%;
+    }
+}

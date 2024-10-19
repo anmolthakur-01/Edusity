@@ -19,10 +19,54 @@ nav {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 9px 20px;
+    margin: 10px 20px;
     font-size: 16px;
 }
 .dark-nav{
     background: #333;
     transition: 0.5s;
+}
+.menu-icon{
+    display: none;
+}
+
+
+/*-------------------- media query ---------------------*/
+
+
+@media(max-width: 1070px){
+    .logo{
+        width: 140px;
+    }
+    nav ul li{
+        margin: 10px 15px;
+    }
+}
+@media(max-width: 840px) {
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        background: #333;
+        z-index: -1;
+        width: 200px;
+        padding-top: 70px;
+        transition: 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px 40px;
+    }
+    .menu-icon{
+        cursor: pointer;
+        width: 30px;
+        display: block;
+    }
+    .hide-mobile-menu{
+        right: -200px;
+    }
 }

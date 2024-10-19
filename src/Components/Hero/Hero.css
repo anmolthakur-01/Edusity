@@ -17,10 +17,30 @@
 .hero-text h1{
     font-size: 60px;
     font-weight: 600;
+    text-transform: capitalize;
 
 }
 .hero-text p{
     max-width: 700px;
     margin: 10px auto 20px;
     line-height: 1.4;
+}
+
+/* -------------- media query -------------- */
+
+@media(max-width: 840px){
+    .hero-text h1{
+        font-size: 40px;
+    }
+}
+@media(max-width: 650px){
+    .hero-text h1{
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p{
+        font-style: 14px;
+        margin: 15px auto 30px;
+    }
 }
