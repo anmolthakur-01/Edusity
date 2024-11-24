@@ -34,13 +34,12 @@ const Testimonial = () => {
               <div className="user-info">
                 <img src={user_1} alt="" />
                 <div>
-                  <h3>William 1</h3>
+                  <h3>Saneha</h3>
                   <span>BECT, GSP</span>
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
+                Choosing to pursue my degree at B.C.E.T. gurdaspur (Beant College of Engineering and Technology) was one of the best decisions I've ever made. The supportive community,
                 state-of-the-art facilities, and commitment to academic
                 excellence have truly exceeded my expectations.
               </p>
@@ -51,15 +50,12 @@ const Testimonial = () => {
               <div className="user-info">
                 <img src={user_2} alt="" />
                 <div>
-                  <h3>William 2</h3>
+                  <h3>Salman</h3>
                   <span>BECT, GSP</span>
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+              B.C.E.T(beant collage of engg. and tech.) is nearest by the national highway 15 at pathankot to gurdaspur . this is a govt. college in gurdaspur. the college campus is big arround the college. many student year by the admission in year by year many student in this college increased. best college in gurudaspur.
               </p>
             </div>
           </li>
@@ -68,15 +64,12 @@ const Testimonial = () => {
               <div className="user-info">
                 <img src={user_3} alt="" />
                 <div>
-                  <h3>William 3</h3>
+                  <h3>Vishakha</h3>
                   <span>BECT, GSP</span>
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+              This college have very good infrastructure. This college give you B.tech and M.tech degree. may be MA. the branches available in this college are Mechanical, Electronics, Biotech, Chemical, Computer Science, etc.
               </p>
             </div>
           </li>
@@ -85,15 +78,12 @@ const Testimonial = () => {
               <div className="user-info">
                 <img src={user_4} alt="" />
                 <div>
-                  <h3>William 4</h3>
+                  <h3>Vishal Singh</h3>
                   <span>BECT, GSP</span>
                 </div>
               </div>
               <p>
-                Choosing to pursue my degree at Edusity was one of the best
-                decisions I've ever made. The supportive community,
-                state-of-the-art facilities, and commitment to academic
-                excellence have truly exceeded my expectations.
+              B.C.E.T. gurdaspur (Beant College of Engineering and Technology) is an academic autonomous, NBA and NAAC 'A' accredited engineering college located in Gurdaspur, Punjab, India. BCET imparts education in various engineering disciplines. BCET has seven academic and two administrative departments. BCET is considered to be one of the premier engineering institution of Punjab.
               </p>
             </div>
           </li>

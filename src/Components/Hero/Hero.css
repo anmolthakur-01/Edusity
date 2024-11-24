@@ -1,7 +1,7 @@
 .hero{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(rgba(3, 3, 3, 0.6),rgba(5,0,51,0.6)), url('../../assets/hero.png');
+    background: linear-gradient(rgba(3, 3, 3, 0.6),rgba(5,0,51,0.6)), url('../../assets/college-frontPic3.png');
     background-size: cover;
     background-position: center;
     color: #fff;
