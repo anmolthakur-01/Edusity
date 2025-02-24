@@ -14,7 +14,7 @@ const Contect = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -57,12 +57,29 @@ const Contect = () => {
       <div className="contect-col">
         <form onSubmit={onSubmit}>
           <label>Your Name</label>
-          <input type="text" name='name' placeholder="Enter your name" required />
-          <label>Phone Number</label>
-          <input type="tel" name="phone" placeholder="Enter you mobile number" required />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+          <label>MOBILE NUMBER</label>
+          <input
+            type="tel"
+            name="Mobile number"
+            placeholder="Enter you mobile number"
+            required
+          />
           <label>Write your message here</label>
-          <textarea name="message" rows='6' placeholder="Enter your message..." required></textarea>
-          <button type="submit" className="btn dark-btn">Submit Now</button>
+          <textarea
+            name="message"
+            rows="6"
+            placeholder="Enter your message..."
+            required
+          ></textarea>
+          <button type="submit" className="btn dark-btn">
+            Submit Now
+          </button>
         </form>
         <span>{result}</span>
       </div>

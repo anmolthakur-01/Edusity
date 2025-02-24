@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><Link to="campus" smooth={true} offset={-260} duration={500}>Campus</Link></li>
         <li><Link to="testimonial" smooth={true} offset={-260} duration={500}>Testimonials</Link></li>
         <li>
-          <button className="btn"><Link to="contect" smooth={true} offset={-260} duration={500}>Contect us</Link></button>
+          <button className="btn"><Link to="contect" smooth={true} offset={-260} duration={500}>Contact us</Link></button>
         </li>
       </ul>
       <img src={menu_icon} className="menu-icon" onClick={toggleMenu}/>
